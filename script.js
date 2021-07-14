@@ -1,4 +1,5 @@
 let nameEl = document.getElementById("p-el");
+let buttonEl  =document.getElementById("changeBG-el")
 
 function changeBackGroundColor() {
     var result           = '#';
@@ -13,5 +14,7 @@ function changeBackGroundColor() {
 
    document.body.style.background = result;
    nameEl.innerText ="Color is : " + result;
+
+   buttonEl.style.background = result;
 
 }
